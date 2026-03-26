@@ -1,0 +1,6 @@
+# Secrets
+config.py
+
+# Python cache
+__pycache__/
+*.py[cod]
