@@ -4,3 +4,5 @@ config.py
 # Python cache
 __pycache__/
 *.py[cod]
+
+Group3.mov

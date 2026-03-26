@@ -309,3 +309,149 @@ Result: 4
 User: what is the use of python?
 Action: llm
 Result: LLM error: 403 Your API key was reported as leaked. Please use another API key.
+User: calculate 1+1
+Action: calculator
+Result: 2
+User: calculate 899*122+23
+Action: calculator
+Result: 109701
+User: read uploads/Cover_Letter_JPMC.pdf
+Action: read_file
+Result: Document loaded into memory from: uploads/Cover_Letter_JPMC.pdf
+User: Hiring
+Action: llm
+Result: That's great! To give you the best advice or resources, I need a little more information.
+
+Could you tell me:
+
+1.  **What kind of roles are you hiring for?** (e.g., software engineers, sales associates, project managers, administrative staff, truck drivers, etc.)
+2.  **What industry is your company in?**
+3.  **Where is the position located?** (e.g., remote, specific city/state, country)
+4.  **What specifically are you looking for help with?** (e.g., crafting job descriptions, finding candidates, choosing job boards, interview tips, applicant tracking systems, offer letters, etc.)
+
+Once I have more details, I can offer more tailored assistance!
+User: read uploads/Cover_Letter_JPMC.pdf
+Action: read_file
+Result: Document loaded into memory from: uploads/Cover_Letter_JPMC.pdf
+User: Give me opinions on this letter?
+Action: llm
+Result: I'd be happy to give you my opinions! However, it seems like the letter itself hasn't been included in your message.
+
+Please paste the letter here, and I can give you feedback on things like:
+
+*   **Clarity and readability:** Is the message easy to understand?
+*   **Tone:** Does it sound professional, friendly, urgent, apologetic, firm, etc.? Is that the intended tone?
+*   **Effectiveness:** Does it achieve its purpose?
+*   **Completeness:** Does it include all necessary information?
+*   **Conciseness:** Is it too long, or can anything be cut without losing meaning?
+*   **Grammar and spelling:** Any errors?
+*   **Structure and flow:** Is it well-organized?
+*   **Audience appropriateness:** Is it suitable for the person or group you're sending it to?
+
+Looking forward to reading it!
+User: read uploads/Cover_Letter_JPMC.pdf
+Action: read_file
+Result: Document loaded into memory from: uploads/Cover_Letter_JPMC.pdf
+User: find manager
+Action: search
+Result: Found 'manager' in document
+User: Judge my resume and tell me if it is good:
+Action: llm
+Result: Okay, I can definitely help you judge your resume! However, I can't "see" it directly. You'll need to **copy and paste the entire text content of your resume** into our chat.
+
+To get the most helpful and accurate feedback, please also tell me:
+
+1.  **What kind of job(s) are you applying for?** (e.g., "Entry-level marketing roles," "Senior Software Engineer in AI," "Registered Nurse in pediatrics," "Project Manager in construction," "Graphic Designer for tech startups," etc.)
+2.  **What industry are these jobs in?** (e.g., Tech, Healthcare, Finance, Education, Retail, etc.)
+3.  **What is your experience level?** (e.g., Entry-level, Mid-career, Senior, Executive, Student, Recent Grad, Career Changer)
+4.  **(Optional but helpful) Do you have a specific job description you're tailoring it to?** If so, you can paste that as well.
+
+---
+
+**Before you paste, please anonymize your resume by replacing:**
+
+*   Your actual name with "[Your Name]"
+*   Your phone number with "[Your Phone Number]"
+*   Your email with "[Your Email Address]"
+*   Your city/state with "[Your City, State]" (or just remove it if you prefer)
+*   Any specific company names or sensitive project details with generic placeholders if you're concerned about privacy.
+
+---
+
+Once you provide this information, I'll be happy to give you a detailed and constructive critique, covering areas like:
+
+*   **Overall Impact:** Does it make a strong first impression?
+*   **Targeting:** How well does it align with your desired roles?
+*   **Clarity and Conciseness:** Is it easy to read and understand?
+*   **Achievements vs. Duties:** Do you highlight accomplishments rather than just responsibilities?
+*   **Keywords:** Is it optimized for Applicant Tracking Systems (ATS)?
+*   **Formatting and Layout:** Is it professional and aesthetically pleasing (based on text structure)?
+*   **Grammar and Spelling:** Any errors?
+*   **Specific Sections:** Feedback on your Summary/Objective, Experience, Education, Skills, etc.
+
+I'm ready when you are!
+User: Judge my resume and tell me if it is good:Parth Palav +91-8080746356 | parth.s.palav@gmail.com | github.com/parthpalav | linkedin.com/in/parthpalav Executive Summary Proactive and solutions-driven Computer Engineering student with experience in managing global tech rollouts, designing scalable web applications, and leading event operations. Skilled in web development, documentation, and team coordination. Education Somaiya Vidyavihar University Mumbai, India Bachelor of Technology in Computer Engineering with Honours in Cybersecurity & Forensics 2023 – 2027 • Current CGPA: 9.82/10 Holy Writ High School and Junior College Higher Secondary Certificate (HSC) | Score: 89% GEMS United Indian School Secondary School Certificate (SSC) | Score: 92% Thane, India 2020 – 2022 Abu Dhabi, UAE 2008 – 2020 Experience Jt. Operations Head Computer Society of India (CSI) – KJSCE Student Chapter July 2025 – Present Mumbai, India • Hosted and managed flagship events such as “Road to Programming”, catering to over 500 First-Year students. • Handled official documentation, minutes of meetings, and report preparation for the council. • Coordinated with multiple departments to ensure smooth execution of technical events and workshops. IT Project Manager Intern May 2025 – July 2025 Tata Motors Ltd. (Commercial Vehicles International Business) Worli, Mumbai • Led international rollout of LMS in Nepal & Bangladesh & E-Guru IBCRM in Democratic Republic of Congo, Egypt, and Dominican Republic in collaboration with Tata Technologies and Tenneo. • Handled SCORM uploads, certifications, data dashboards, and onboarding. • Implemented frontend UI/UX enhancements and validation features for the E-Guru IBCRM mobile app (SSA/ASEAN/MENA). • Managed stakeholder communication, escalations, UAT, and localization issues (French/Spanish). Organising Group Member – Symphony 2024 KJ Somaiya College of Engineering – Cultural Fest March 2024 Mumbai, India • Promoted Symphony 2024 across colleges in Mumbai to boost participation. • Handled logistics, coordination, and end-to-end management of cultural events. Projects Mentor Connect: Prototype Mentorship Platform | Figma, UI/UX Design, Team of 6 • Designed intuitive UI/UX using Figma for a platform connecting youth to mentors for education and career guidance. • Collaborated in a 6-member team to develop a working prototype; contributed to visual layouts and presentation. • Qualified internal round of Smart India Hackathon (SIH) 2024. Green Basket: Ecommerce cum Donation Website | HTML, CSS, JavaScript, PHP, MySQL • Developed a platform enabling farmers to sell goods and users to donate essentials. • Implemented authentication, product filtering, and role-based dashboards (farmer, buyer, donor, admin). • Applied indexing, query optimization, and hashing for efficient database performance. • Aligned with UN SDGs: Zero Hunger and No Poverty. Technical Skills Languages/Tools: C++, Java, HTML, CSS, PHP, MySQL, Git Software: VS Code, Android Studio, PgAdmin, XAMPP, Adobe Photoshop, Lightroom, Sony Vegas Pro Other: AI Tools – ChatGPT, GitHub Copilot, Runway Gen 2 Achievements & Awards • Ranked #1 School Topper – Academic Year 2021–2022. • Secured 3rd Place – Scientific Case Study (Senior Category), Children’s Innovation Festival 2019. • National Rank 2 (English) and National Rank 12 (Science) – International Olympiad Qualifier (2018). • A1 – Level E and A2 – Level F – CAT 4 Competitive Exams (2016, 2017).
+Action: llm
+Result: Parth, this is an **exceptionally strong resume for a student still in university!** You have an impressive array of experiences, achievements, and technical skills that many professionals a few years out of college would envy.
+
+Let's break it down:
+
+## Overall Judgment: **Excellent, with one critical correction needed.**
+
+You have a fantastic foundation for securing great internships and future full-time roles. The content is rich, varied, and demonstrates a proactive, high-achieving individual.
+
+---
+
+## Strengths:
+
+1.  **Stellar Academic Record:** Your 9.82/10 CGPA is outstanding and immediately highlights your academic prowess. Combining this with "Honours in Cybersecurity & Forensics" is a great differentiator.
+2.  **Incredibly Impressive Internship:** The Tata Motors internship is a HUGE highlight.
+    *   **Global Scope:** Leading international rollouts in multiple countries as an intern is remarkable.
+    *   **Technical & Managerial Skills:** You seamlessly blend project management (stakeholder comms, UAT, localization) with technical contributions (UI/UX enhancements, validation features). This demonstrates versatility.
+    *   **Quantifiable Impact:** While not explicitly numerical (e.g., "reduced support tickets by X%"), the scale of the rollout is impact enough.
+3.  **Strong Leadership & Event Management:** Your roles in CSI and Symphony show strong leadership, coordination, and the ability to manage large-scale events, which are valuable soft skills. "Catering to over 500 First-Year students" is excellent quantification.
+4.  **Impactful Projects:**
+    *   **Mentor Connect:** Showcases UI/UX design skills, teamwork, and the **Smart India Hackathon (SIH) qualification is a major achievement** that should be highlighted even more.
+    *   **Green Basket:** Demonstrates full-stack development, database optimization ("indexing, query optimization, hashing"), and social awareness (UN SDGs). This project shows technical depth.
+5.  **Relevant & Modern Technical Skills:** Your skills list is comprehensive, and including AI tools (ChatGPT, GitHub Copilot, Runway Gen 2) is a smart move that shows you're current with emerging technologies.
+6.  **Strong Achievements Section:** "Ranked #1 School Topper" and competitive olympiad ranks further solidify your consistent high performance.
+7.  **Concise Executive Summary:** It's a great hook, accurately summarizing your diverse experience.
+8.  **Professional Formatting:** Clear, concise, uses action verbs, and fits on one page – all crucial for an applicant in your stage.
+
+---
+
+## Areas for Improvement & Suggestions:
+
+1.  **CRITICAL DATE CORRECTION:**
+    *   **This is the most important fix.** Your "Jt. Operations Head" role states "July 2025 – Present" and your "IT Project Manager Intern" role states "May 2025 – July 2025." These dates are in the future.
+    *   **Action:** You *must* update these to reflect your actual past or current start/end dates. For example, if your Tata Motors internship was May 2024 – July 2024, correct it. If your CSI role started in July 2023, correct it.
+    *   **If these are upcoming roles:** You need to explicitly state that. For example:
+        *   **Incoming Jt. Operations Head** | Computer Society of India (CSI) – KJSCE Student Chapter | *Commencing July 2025*
+        *   **Planned IT Project Manager Intern** | Tata Motors Ltd. | *May 2025 – July 2025* (or if it's already done, just correct the year).
+    *   **Why this is critical:** Future dates can confuse recruiters, make them question the authenticity of your experience, or even lead them to discard the resume.
+
+2.  **Highlight SIH Qualification:**
+    *   In "Mentor Connect," the fact that you "Qualified internal round of Smart India Hackathon (SIH) 2024" is a significant achievement. Consider bolding it or rephrasing slightly to give it more prominence, e.g., "Qualified internal round of **Smart India Hackathon (SIH) 2024**, showcasing innovative design."
+
+3.  **Quantify More Where Possible (Minor):**
+    *   While many points are well-quantified, look for any other opportunities. For instance, for "Green Basket," if you had any hypothetical user engagement metrics, even if projected, it could add value (e.g., "designed for X potential users"). This is a minor point as your existing quantification is good.
+
+4.  **Skills Categorization (Optional):**
+    *   For readability, you could slightly categorize your skills, especially as you gain more. E.g.:
+        *   **Programming Languages:** C++, Java, PHP, JavaScript, HTML, CSS
+        *   **Databases:** MySQL
+        *   **Tools & Platforms:** Git, VS Code, Android Studio, PgAdmin, XAMPP, Figma
+        *   **Design & Multimedia:** Adobe Photoshop, Lightroom, Sony Vegas Pro
+        *   **AI Tools:** ChatGPT, GitHub Copilot, Runway Gen 2
+    *   This isn't strictly necessary but can make it easier for an ATS or a recruiter to quickly scan for specific skill sets.
+
+5.  **Consider Removing Oldest Achievements (Optional, for future):**
+    *   As you gain more university experience and internships, you might eventually phase out the "Children’s Innovation Festival 2019" and "CAT 4 Competitive Exams" (2016, 2017) to make space for more recent and relevant accomplishments. For now, it's fine, as it shows a consistent history of achievement.
+
+---
+
+## Conclusion:
+
+Parth, this is a truly impressive resume for your career stage. You've clearly made the most of your time, taking on significant responsibilities and excelling in both technical and leadership capacities.
+
+**Fix the dates immediately**, and you'll have a resume that stands out incredibly well. Great job!

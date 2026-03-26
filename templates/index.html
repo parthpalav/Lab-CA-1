@@ -1,72 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <title>Clean AI Assistant</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Agentic AI Research Assistant</title>
   <link rel="stylesheet" href="/static/style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 </head>
-
 <body>
+  <main class="container">
+    <h1 class="agent-name">Agentic AI Research Assistant</h1>
 
-  <header class="app-header">
-    <div class="logo">✦ Assistant Workspace</div>
-    <div class="user-profile">N</div>
-  </header>
+    <form id="agentForm" class="search-row">
+      <input id="query" name="message" type="text" placeholder="Enter your question" required>
+      <input id="fileInput" name="file" type="file" accept=".txt,.pdf">
+      <button type="submit">Search</button>
+    </form>
 
-  <main class="chat-container" id="chatArea">
-    <div class="welcome-screen" id="welcomeScreen">
-      <h1>Hello.</h1>
-      <p>How can I help you process your data today?</p>
-    </div>
+    <section class="result-box">
+      <h2>Response</h2>
+      <pre id="responseText">Submit a query to talk to your AI agent.</pre>
+    </section>
   </main>
-
-  <footer class="input-wrapper">
-    <div class="input-container">
-
-      <div class="tool-selector">
-        <button class="tool-chip active" data-tool="llm" onclick="selectTool('llm')">
-          <span class="icon">✨</span> Base LLM
-        </button>
-        <button class="tool-chip" data-tool="calc" onclick="selectTool('calc')">
-          <span class="icon">🧮</span> Calculate
-        </button>
-        <button class="tool-chip" data-tool="read" onclick="selectTool('read')">
-          <span class="icon">📄</span> Read File
-        </button>
-        <button class="tool-chip" data-tool="find" onclick="selectTool('find')">
-          <span class="icon">🔍</span> Find Word
-        </button>
-        <button class="tool-chip" data-tool="summarize" onclick="selectTool('summarize')">
-          <span class="icon">🧾</span> Summarize PDF
-        </button>
-      </div>
-
-      <div class="quick-actions" id="quickActions">
-        <button class="quick-btn" onclick="runQuickAction('read')">Read Sample File</button>
-        <button class="quick-btn" onclick="runQuickAction('find')">Find in Loaded File</button>
-        <button class="quick-btn" onclick="runQuickAction('calc')">Calculate Example</button>
-        <button class="quick-btn" onclick="runQuickAction('summarize')">Summarize Sample PDF</button>
-      </div>
-
-      <div class="input-box">
-        <textarea id="userInput" placeholder="Ask a question or enter a command..." rows="1" oninput="autoResize(this)"
-          onkeydown="handleKey(event)"></textarea>
-        <button class="send-btn" id="sendBtn" onclick="sendMessage()">
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-            stroke-linecap="round" stroke-linejoin="round">
-            <line x1="22" y1="2" x2="11" y2="13"></line>
-            <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
-          </svg>
-        </button>
-      </div>
-      <div class="footer-text">Assistant can make mistakes. Consider verifying important information.</div>
-    </div>
-  </footer>
 
   <script src="/static/script.js"></script>
 </body>
-
 </html>
